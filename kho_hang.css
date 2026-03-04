@@ -1,0 +1,41 @@
+.topbar form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.topbar input {
+    flex: 1;
+    padding: 8px;
+}
+
+.header-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: grey;
+    align-items: center;
+    color: aliceblue;
+    padding: 12px;
+    border-radius: 4px;
+    border-bottom: 1px solid black;
+    margin:5px 0 0 0;
+}
+
+.data-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: aliceblue;
+    align-items: center;
+    border-bottom: 1px solid black;
+    height: 75px;
+    padding: 0 12px;
+}
+
+.data-row:hover {
+    background-color: white;
+}
+
+.data-row div:last-child {
+    display: flex;
+    gap: 5px;
+}

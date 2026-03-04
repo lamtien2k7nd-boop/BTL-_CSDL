@@ -1,0 +1,33 @@
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.card {
+    background-color: #f9fafc;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #4d69a0;
+    transition: 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h2 {
+    font-size: 40px;
+    color: #2b6cb0;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #555;
+}

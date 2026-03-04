@@ -3,18 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+:root{
+    --primary-color: #1e1e2d;
+    --secondary-color: #2d2d44;
+    --accent-color: #8a2be2;
+    --warning-color: #ffa500;
+    --error-color: #ff0000;
+    --success-color: #008000;
+    --xanhla: green;
+    --xam: gray;
+    --do: red;
+    --vang:yellow;
+    --cam:orange;
+    --xanh: rgb(10, 103, 103);
+    --tim:rgb(138, 43, 226);
+    --side-text-color:#a9abbd;
+    --active-color: #727cf5;
+}
 body {
     display: flex;
     height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: azure;
 }
 
 /* Sidebar Styling */
 .sidebar {
     width: 15%;
-    background-color: rgb(90, 20, 255);
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--side-text-color);
     height: 100%;
 }
 
@@ -22,6 +39,7 @@ body {
     text-align: center;
     margin-bottom: 30px;
     padding-top: 20px;
+    color: white;
 }
 
 .sidebar ul {
@@ -31,14 +49,14 @@ body {
 .sidebar li {
     cursor: pointer;
     padding: 10px;
-    margin: 5px;
+    margin: 10px;
     transition: 0.3s;
     text-align: center;
     border-radius: 5px;
 }
 
 .sidebar li:hover {
-    background-color: grey;
+    background-color: var(--secondary-color);
 }
 
 .sidebar a {
@@ -70,9 +88,14 @@ button {
 button:hover { opacity: 0.9; }
 button:active { transform: translateY(1px); }
 
-.xanh { background-color: rgb(10, 103, 103); }
-.xam { background-color: rgb(114, 114, 114); }
-.tim { background-color: blueviolet; }
-.vang { background-color: orange; }
-.do { background-color: red; }
-.xanhla { background-color: green; }
+.xanh { background-color: var(--xanh); }
+.xam { background-color: var(--xam); }
+.tim { background-color: var(--accent-color); }
+.vang { background-color: var(--vang); }
+.do { background-color: var(--do); }
+.xanhla { background-color: var(--xanhla); }
+
+#activating{
+    background-color: var(--active-color);
+    color:#fff
+}

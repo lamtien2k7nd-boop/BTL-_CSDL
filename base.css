@@ -99,3 +99,33 @@ button:active { transform: translateY(1px); }
     background-color: var(--active-color);
     color:#fff
 }
+.btn_tim{
+    background-color: #fff;
+    color: black;
+    border: 0.3px solid black;
+}
+.btn_tim:hover{
+    background-color: purple;
+    color: white;
+    border: none;
+}
+.btn_cam{
+    background-color: #fff;
+    color: black;
+    border: 0.3px solid black;
+}
+.btn_cam:hover{
+    background-color: orange;
+    color: white;
+    border: none;
+}
+.btn_do{
+    background-color: #fff;
+    color: black;
+    border: 0.3px solid black;
+}
+.btn_do:hover{
+    background-color: red;
+    color: white;
+    border: none;
+}

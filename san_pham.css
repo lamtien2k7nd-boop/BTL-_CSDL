@@ -23,6 +23,7 @@
     padding:20px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    color: white;
 }
 .header-row div{
     display: flex;

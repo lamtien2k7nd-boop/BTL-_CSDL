@@ -1,0 +1,40 @@
+form{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.searchbox{
+    border-radius: 5px;
+    flex:1;
+    padding:8px;
+    border: 1px solid black;
+}
+.main{
+    margin-top: 5px;
+    width: 100%;
+}
+.header-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1.5fr 2fr;
+    padding: 12px 15px;
+    gap: 10px;
+    align-items: center;
+    background-color: var(--xam);
+    padding:20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+}
+.data-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1.5fr 2fr;
+    padding: 12px 15px;
+    gap: 10px;
+    align-items: center;
+    border-bottom: 1px solid var(--xam);
+}
+.action{
+    display: flex;
+    gap: 10px;
+}
+

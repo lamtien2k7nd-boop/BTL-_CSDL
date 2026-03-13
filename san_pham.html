@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="san_pham.css">
 </head>
 <body>
+    
     <div class = "sidebar">
         <h2>Quản lý cửa hàng</h2>
         <ul>
@@ -59,24 +60,30 @@
             <div>400.000đ</div>
             <div>150</div>
             <div>
-                <button class = "btn_tim">Chi tiết</button>
+                <button class = "btn_tim" id="openbtn">Chi tiết</button>
                 <button class = "btn_cam">Sửa</button>
                 <button class = "btn_do">Xóa</button>
             </div> 
-            <div class="detail">
-                <div>Ma san pham: SP02</div>
-                <div>Ten san pham: Quần jeans</div>
-                <div>Loai san pham: Quần</div>
-                <div>Chat lieu: Denim</div>
-                <div>Mua: Xuân/Hè</div>
-                <div>Size: 28, 30, 32</div>
-                <div>GIoi tinh: Nam</div>
-                <div>Nha cung cap: TD Fashion</div>
-                <div>Gia ban: 400.000đ</div>
-                <div>So luong ton: 150</div>
+            <div class="detailOverlay" id="overlay">
+                
+                <div class="detail" id="content">
+                    <button class="closebtn" id="close">&times;</button>
+                    <h2 style="margin-top: 0; color: #333;">Chi tiết sản phẩm</h2>
+                    <hr> <div class="info-row"><strong>Mã sản phẩm:</strong> <span>SP02</span></div>
+                    <div class="info-row"><strong>Tên sản phẩm:</strong> <span>Quần Jeans</span></div>
+                    <div class="info-row"><strong>Loại sản phẩm:</strong> <span>Quần</span></div>
+                    <div class="info-row"><strong>Chất liệu:</strong> <span>Denim</span></div>
+                    <div class="info-row"><strong>Mùa:</strong> <span>Xuân/Hè</span></div>
+                    <div class="info-row"><strong>Kích cỡ (Size):</strong> <span>28, 30, 32</span></div>
+                    <div class="info-row"><strong>Giới tính:</strong> <span>Nam</span></div>
+                    <div class="info-row"><strong>Nhà cung cấp:</strong> <span>TD Fashion</span></div>
+                    <div class="info-row"><strong>Giá bán:</strong> <span style="color: red; font-weight: bold;">400.000đ</span></div>
+                    <div class="info-row"><strong>Số lượng tồn:</strong> <span>150</span></div>
+                </div>
             </div>   
         </div>
         </div>    
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
